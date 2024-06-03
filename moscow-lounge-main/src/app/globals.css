@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero{
+  background-image: url(../../public/hero-bg.jpg);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  background-position-x: center;
+  background-position-y: top;
+  background-size: cover;
+  height: 100vh;
+}
+.about {
+  background-image: url(../../public/about-bg.jpg);
+  background-color: rgba(0, 0, 0, 0.715);
+  background-blend-mode: darken;
+  background-position-x: center;
+  background-position-y: top;
+  background-size: cover;
+  /* height: 100vh; */
+}
+.events {
+  background-image: url(../../public/events-bg.jpg);
+  background-color: rgba(0, 0, 0, 0.715);
+  background-blend-mode: darken;
+  background-position-x: center;
+  background-position-y: top;
+  background-size: cover;
+  /* height: 100vh; */
+}
+.about-bg {
+  background-image: url(../../public/about.jpg);
+  background-color: rgba(0, 0, 0, 0.715);
+  background-blend-mode: darken;
+  background-position-x: center;
+  background-position-y: top;
+  background-size: cover;
+  height: 450px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hero_design{
+  background: radial-gradient(#cda45e 50%, rgba(205, 164, 94, 0.4) 52%) !important;
+}
+.nav_border{
+   border: 1px solid #cda45e8f;
+}
