@@ -1,0 +1,6 @@
+Module  Module 1
+        Sub Main()
+        System.console.Write("Hello VB.Net")
+        System.console.Read()
+        End Sub
+End Module
