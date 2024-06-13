@@ -44,9 +44,7 @@ export const FormComponent = () => {
         rows="10"
       ></textarea>
       <div className="w-full flex flex-row items-center my-2 justify-center mt-10">
-        <button 
-          className="text-white rounded-full bg-black w-fit py-2 px-6 transform transition-transform duration-200 ease-in-out hover:bg-[#cda45e] hover:shadow-lg hover:transition-colors hover:duration-500 active:scale-95"
-        >
+        <button className="border-[#cda45e] mr-10 border-2 px-2 md:px-4 py-2 rounded-full text-white hover:bg-[#cda45e] hover:border-white-1000 transition duration-500 ease-in-out"        >
           Book a table
         </button>
       </div>
