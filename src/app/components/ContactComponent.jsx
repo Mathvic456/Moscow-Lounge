@@ -23,7 +23,7 @@ export const ContactComponent = () => {
   };
 
   return (
-    <div className="w-full flex flex-col xl:flex-row pt-20">
+    <div className="w-full flex flex-col xl:flex-row pt-20 pb-10">
       <div className="flex flex-col w-full xl:w-1/2 justify-around">
         <div className="flex flex-row items-center my-4">
           <div className="h-12 w-12 rounded-full mr-5 bg-[#cda45e] md:bg-[#cda45e] flex flex-row items-center justify-center">
@@ -39,7 +39,7 @@ export const ContactComponent = () => {
         <div className="flex flex-row items-center my-4">
           <div className="h-12 w-12 rounded-full mr-5 bg-[#cda45e] md:bg-[#cda45e] flex flex-row items-center justify-center">
             <FaRegClock color="white" size={25}></FaRegClock>
-          </div>
+          </div> 
           <div>
             <h2 className="text-white w-fit block">Open hours:</h2>
             <span className="text-white block">Mondays - Saturdays</span>
@@ -112,15 +112,14 @@ export const ContactComponent = () => {
         <div className="w-full flex flex-row items-center my-2 justify-center mt-10">
           <button
             type="submit"
-            className={`text-white rounded-full bg-[#cda45e] w-fit py-2 px-6`}
-          >
+            className="border-[#cda45e] mr-10 border-2 px-2 md:px-4 py-2 rounded-full text-white hover:bg-[#cda45e] hover:border-white-1000 transition duration-500 ease-in-out"          >
             Send message
           </button>
         </div>
       </form>
       {showModal && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-          <div className="bg-white p-5 rounded-lg">
+          <div className="bg-white p-10 rounded-lg h-40 w-80 justify-center items-center">
             <h2 className="text-xl mb-4">Message sent!</h2>
             <button
               className="bg-red-500 text-white py-2 px-4 rounded"
